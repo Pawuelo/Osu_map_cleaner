@@ -17,10 +17,9 @@ def clean_map_folder(path):
                 if os.path.isdir(to_remove):
                      shutil.rmtree(to_remove)
     print("done")
-
-                
+              
 path="C:\\Users\\Uzytkownik\\Desktop\\folder" #insert folder path
-clean_map_folder(path)
+clean_map_folder(path) 
     
 
     
